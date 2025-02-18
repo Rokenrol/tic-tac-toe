@@ -81,3 +81,28 @@
     border: 2px solid lightgray;
     border-radius: 8px;
   }
+
+/* Inputs and labels */
+
+  input {
+    width: 20ch;
+    appearance: none;
+    color: dimgray;
+    border: none;
+    outline: 1px solid lightgray;
+    border-radius: 4px;
+  }
+
+  label {
+    width: 100px;
+    display: inline-block;
+    text-align: left;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: darkgray;
+  }
+
+  #player1 {
+    margin-bottom: 10px;
+  }
+
