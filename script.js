@@ -47,7 +47,6 @@ function Gameboard() {
   } // ---> end of Gameboard function
 
 
-
 function Cell() {
     let value = "";
     
@@ -80,7 +79,6 @@ function GameController( playerOneName = "Player One", playerTwoName = "Player T
     function markersBoard() {
     let boardWithMarkers = board.getBoard().map((rowArray) => rowArray.map((eachCell) => eachCell.getMarker()));
     return boardWithMarkers;
-    console.log("this is boardwithmarkers: ", boardWithMarkers);
     }
   
     const players = [
@@ -107,7 +105,7 @@ function GameController( playerOneName = "Player One", playerTwoName = "Player T
     
     function getActivePlayer() {
       return activePlayer;
-  }
+    }
     
     function setPlayerName(name, number) {
       players[number].name = name;
@@ -127,14 +125,12 @@ function GameController( playerOneName = "Player One", playerTwoName = "Player T
     }
   
     function resetGame() {
-      console.log("im in reset game");
       board.resetBoard();
       activePlayer = players[0];
       isGameWon = false;
       isGameOver = false;
       winCombo = "";
       board.printBoard();
-      // printNewRound();
     }
     
     function checkWin(board) {
@@ -155,18 +151,10 @@ function GameController( playerOneName = "Player One", playerTwoName = "Player T
     if (board[a[0]][a[1]] !== "" && board[a[0]][a[1]] === board[b[0]][b[1]] && board[a[0]][a[1]] === board[c[0]][c[1]]) {
        isGameWon = true;
        winCombo = condition;
-   }
-  // condition.forEach(locus => console.log("testtest", locus));
-  // if (board.some(condition => condition.every(square => square === "X")) || board.some(condition => condition.every(square => square === "O"))) {
-  //   isGameWon = true;
-  //   console.log("pobednicka kombinacija", condition);
-    // winningConditions[condition].forEach((condition, index) => console.log("test", condition, index));
-    // winningConditions[i].forEach(condition => console.log(condition));
-        // }
-    // return console.log(`${getActivePlayer().name} is the winner!`);
-     } // --> end of for of loop
+       }
+    } // --> end of for of loop
     
-   } // --> end of checkWin function
+ } // --> end of checkWin function
     
     
    function checkFreeCells(boardToCheck) {
