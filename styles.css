@@ -118,3 +118,17 @@
     border-radius: 6px;
     text-transform: uppercase;
   }
+
+/* Restart button states */
+
+.restart:hover {
+    color: ghostwhite;
+    background-color: #fb5353;
+    border: 2px solid #fb5353;
+  }
+  
+  .restart:active {
+    color: ghostwhite;
+    background-color: green;
+    border: 2px solid green;
+  }
