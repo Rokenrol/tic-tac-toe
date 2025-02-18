@@ -18,8 +18,8 @@
 
   .board {
     display: grid;
-    height: 500px;
-    width: 500px;
+    height: 330px;
+    width: 330px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     margin-top: 20px;
