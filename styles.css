@@ -39,13 +39,12 @@
     font-size: 3rem;
     text-shadow: 1px 5px 5px black;
     border: 1px solid grey;
-  /*   background-color: #3f853f; */
-    background-color: #2a672a;
+    background-color: #006a4e;
     color: white;
     cursor: pointer;
   }
 
-/* Styles for highlighting the winning combination */
+/* Highlight winning combination */
 
   .highlight {
     border: 1px solid white;
@@ -129,6 +128,6 @@
   
   .restart:active {
     color: ghostwhite;
-    background-color: green;
-    border: 2px solid green;
+    background-color: #006a4e;
+    border: 2px solid #006a4e;
   }
