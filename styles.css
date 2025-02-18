@@ -45,6 +45,14 @@
     cursor: pointer;
   }
 
+/* Styles for highlighting the winning combination */
+
+  .highlight {
+    border: 1px solid white;
+    color: white;
+    background-color: #fb5353;
+  }
+
 /* Div that displays whose turn is it */
 
   .turn {
