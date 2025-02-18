@@ -25,3 +25,17 @@
     padding: 2px;
     background-color: ivory;
   }
+
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 3rem;
+    text-shadow: 1px 5px 5px black;
+    border: 1px solid grey;
+  /*   background-color: #3f853f; */
+    background-color: #2a672a;
+    color: white;
+    cursor: pointer;
+  }
