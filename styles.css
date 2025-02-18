@@ -68,3 +68,16 @@
     border-radius: 10px;
     word-break: break-word;
   }
+
+/* Interaction section - inputs and reset button */
+
+  .interaction {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    border: 2px solid lightgray;
+    border-radius: 8px;
+  }
