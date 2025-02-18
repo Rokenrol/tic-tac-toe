@@ -45,3 +45,24 @@ function Gameboard() {
     }
     
   } // ---> end of Gameboard function
+
+
+
+  function Cell() {
+    let value = "";
+    
+    function addPlayerMarker(player) {
+      value = player;
+    }
+    
+    function getMarker() {
+      return value;
+    }
+    
+    return {
+      addPlayerMarker,
+      getMarker
+    } 
+  }
+
+  
