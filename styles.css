@@ -106,3 +106,15 @@
     margin-bottom: 10px;
   }
 
+/* Restart button */
+
+.restart {
+    width: 90px;
+    padding: 10px 10px;
+    align-self: center;
+    font-family: Verdana, sans-serif;
+    color: dimgray;
+    border: 2px solid lightgray;
+    border-radius: 6px;
+    text-transform: uppercase;
+  }
